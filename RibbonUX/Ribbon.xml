@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab id="DemoUX" label="Demo UX">
+        <group id="group1" label="group1">
+          <button id="btnSample" label="Gantt Chart" onAction="btnSample_Click" screentip="This is the Screen Tip" supertip="This is the Super Tip" description="My Button Sample" size="large" getImage="FindImage"/>
+          <button id="btnPie"  onAction="OnActionCallback" getLabel="PieLabel" size="large" getImage="FindImage"/>
+        </group>
+        <group id="group2" label="group2">
+          <comboBox id="cbSampleCombo" label="Sample Combo Box" onChange="ComboChanged" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+

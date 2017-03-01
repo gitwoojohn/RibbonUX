@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RibbonUX", "RibbonUX\RibbonUX.csproj", "{68F3287B-245B-428F-B0C1-34EC0AD38512}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{1C5EE3A3-65CB-442C-A1CF-2CA3687203B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{68F3287B-245B-428F-B0C1-34EC0AD38512}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68F3287B-245B-428F-B0C1-34EC0AD38512}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68F3287B-245B-428F-B0C1-34EC0AD38512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C5EE3A3-65CB-442C-A1CF-2CA3687203B2}.Debug|Any CPU.ActiveCfg = Debug
+		{1C5EE3A3-65CB-442C-A1CF-2CA3687203B2}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
